@@ -1,14 +1,15 @@
 # Supply Chain Performance Dashboard
 
-"A global e-commerce company wants to evaluate supply chain performance, identify high-value markets, and understand category-level profitability to guide inventory and marketing decisions."
-
 ### Power BI Analytics Project
 
 ---
 
+## Problem Statement
+A global e-commerce company operating across 45+ countries wants to evaluate supply chain performance over a 3-year period (2015–2017). The business needs to identify high-value markets, understand category-level profitability, and assess order fulfillment patterns to guide inventory and marketing decisions.
+
 ## Project Overview
 
-This Power BI report analyzes global supply chain performance across multiple countries and product categories. The dashboard covers order fulfillment, sales trends, profit margins, and category-level performance based on transactional data from 2015 to 2018.
+This Power BI report analyzes global supply chain performance across multiple countries and product categories. The dashboard covers order fulfillment, sales trends, profit margins, and category-level performance based on transactional data from 2015 to 2017 (2018 excluded from analysis).
 
 ---
 
@@ -25,20 +26,7 @@ Global sales map, Profit and Sales by Category, Order Item Quantity by Category,
 ### Page 3 — Recommendations & Business Insights
 Data-driven key insights, business risks, and actionable recommendations based on full-year 2015–2017 data.
 
-
 ---
-## Dashboard Preview
-
-### Page 1 — Supply Chain Performance
-![Supply Chain Dashboard](assets/Supply_Chain_Performance_Dashboard.png)
-
-### Page 2 — Category & Geographic Analysis
-![Category Analysis](assets/Category_and_Geographic_Analysis.png)
-
-### Page 3 — Recommendations
-![Recommendations](assets/Recommendations_and_Business_Insights.png)
-
---- 
 
 ## ⚠️ Important Data Quality Note — 2018 Dataset
 
@@ -73,6 +61,18 @@ All trend analysis, KPIs, and recommendations in this report are based on **comp
 - Sales remained stable from 2015–2017, averaging ~$1M per month
 
 ---
+## Dashboard Preview
+
+### Page 1 — Supply Chain Performance
+![Supply Chain Dashboard](assets/Supply_Chain_Performance_Dashboard.png)
+
+### Page 2 — Category & Geographic Analysis
+![Category Analysis](assets/Category_and_Geographic_Analysis.png)
+
+### Page 3 — Recommendations
+![Recommendations](assets/Recommendations_and_Business_Insights.png)
+
+--- 
 
 ## Data Modeling & Transformation
 
@@ -80,7 +80,7 @@ The raw dataset (**DataCoSupplyChainDataset**) was provided as a **flat CSV file
 
 **Schema Design:**
 ```
-Flat CSV → Star Schema (5 Tables)
+Flat CSV → Star Schema (4 Tables)
 
 📊 Fact Table:
 └── Order_details     — core transactional data (sales, profit, quantity, order status)

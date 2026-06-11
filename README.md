@@ -1,4 +1,7 @@
 # Supply Chain Performance Dashboard
+
+"A global e-commerce company wants to evaluate supply chain performance, identify high-value markets, and understand category-level profitability to guide inventory and marketing decisions."
+
 ### Power BI Analytics Project
 
 ---
@@ -24,6 +27,18 @@ Data-driven key insights, business risks, and actionable recommendations based o
 
 
 ---
+## Dashboard Preview
+
+### Page 1 — Supply Chain Performance
+![Supply Chain Dashboard](assets/Supply_Chain_Performance_Dashboard.png)
+
+### Page 2 — Category & Geographic Analysis
+![Category Analysis](assets/Category_and_Geographic_Analysis.png)
+
+### Page 3 — Recommendations
+![Recommendations](assets/Recommendations_and_Business_Insights.png)
+
+--- 
 
 ## ⚠️ Important Data Quality Note — 2018 Dataset
 
@@ -111,3 +126,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - Use the **Order Country** and **Order Year** slicers on Page 1 to explore market-specific performance
 - Avoid selecting **2018** in isolation for comparative analysis due to the data quality issue documented above
 - All monetary values are in **USD**
+
+## Author
+**Anmol Yadav**
+[LinkedIn](https://www.linkedin.com/in/anmol-yadav-7bb62a323) | [GitHub](https://github.com/Anny25092004)
